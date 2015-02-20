@@ -1,0 +1,147 @@
+body {
+	font-family: 'Dosis', sans-serif;
+	background-color: #EDEDED;
+	margin: 0 auto;
+}
+
+.exchangesDiv {
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+}
+
+.tickSpan {
+	color: #00CC00;
+}
+
+.bodyHeader {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid #888888;
+	width: 100%;
+	height: 100px;
+}
+
+.titleDiv {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 12px;
+
+}
+
+
+.logoDiv {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+	padding: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	overflow: hidden;
+}
+
+.currDiv {
+	width: 40%; 
+	display: inline-block;
+    position: relative;
+    text-align: right;
+}
+
+.equalsDiv {
+	width: 100px;
+	display: inline-block;
+    position: relative;
+}
+
+.fiatDiv {
+	width: 40%; 
+	display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.containerDiv {
+	display: inline-flex;
+	height: 100%;
+	width: 100%;
+
+}
+
+.bodyValues {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin: auto 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: table;
+}
+
+.inputStandard {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 150px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 100%;
+	font-size: 50px;
+	font-family: 'Dosis', sans-serif;
+	padding: 6px;
+	text-align: center;
+    min-width: 120px;
+    max-width: 300px;
+    transition: width 100ms linear;
+}
+
+.inputGrey {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 150px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 100%;
+	font-size: 50px;
+	font-family: 'Dosis', sans-serif;
+	padding: 6px;
+	background: #EEEEEE;
+	text-align: center;
+}
+
+.selectGrey {
+	box-sizing: border-box;
+	width: 150px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 100%;
+	font-size: 50px;
+	font-family: 'Dosis', sans-serif;
+	padding: 6px;
+	background: #EEEEEE;
+	text-align: center;
+}
+
+.bodyEquals {
+	font-family: 'Dosis', sans-serif;
+	font-size: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
