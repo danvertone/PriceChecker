@@ -60,14 +60,14 @@ $varConfig = parse_ini_file("./config.ini");
 				<span class="tickSpan">&#10004;</span> BTC-E
 			</div>
 				<div class="currDiv">
-					<input type="text" class="inputStandard" id="currInput" value="1" onchange="currConvert(this.value)">
+					<input type="text" class="inputStandard" id="currInput" value="1" onchange="currConvert(this.value)" onkeyup="currConvert(this.value)">
 					<input type="text" class="inputGrey" value="<?php echo $varConfig['coin']; ?>" disabled>
 				</div>
 				<div class="equalsDiv">
 					<span class="bodyEquals">=</span>
 				</div>
 				<div class="fiatDiv">
-				    <input type="text" class="inputStandard" id="fiatInput" value="<?php echo number_format($varAverage, 2); ?>" onchange="fiatConvert(this.value)">
+				    <input type="text" class="inputStandard" id="fiatInput" value="<?php echo number_format($varAverage, 2); ?>" onchange="fiatConvert(this.value)" onkeyup="fiatConvert(this.value)">
 					<select class="selectGrey" id="selectBox" onchange="currConvert(this.value)">
 					  <option value="USD">USD</option>
 					  <option value="GBP">GBP</option>
